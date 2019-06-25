@@ -1,31 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   WeatherProvider.java                               :+:      :+:    :+:   */
+/*   Flyable.java                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pvan-ren <pvan-ren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/25 13:26:54 by pvan-ren          #+#    #+#             */
-/*   Updated: 2019/06/25 14:06:43 by pvan-ren         ###   ########.fr       */
+/*   Created: 2019/06/25 14:02:32 by pvan-ren          #+#    #+#             */
+/*   Updated: 2019/06/25 14:04:45 by pvan-ren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-package weather;
+package simulator.vehicles;
 
-public class WeatherProvider {
-    
-    private WeatherProvider weatherProvider;
-    private String[] weather;
-    
-    private WeatherProvider(){
+public class Flyable {
+    public void updateConditions() {
         
     }
-    public WeatherProvider getProvider(){
-        return weatherProvider;
-        
-    }
-    public String getCurrentWeather(Coordinates coordinates){
-        return null;
+    public void registerTower(WeatherTower WeatherTower) {
         
     }
 }
