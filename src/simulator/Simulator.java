@@ -15,18 +15,16 @@ import java.io.*;
 class Simulator {
     public static void main(String[] args) {
         try {
-            File file = new File(args[0]);
+            File file = new File("../../scenario.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
             
             String line = br.readLine();
-            
-            // System.out.println(line);
-            
-            // br.close();
+            System.out.println(line);
+            br.close();
             
             
         } catch (Exception e) {
-            System.out.println("Something went wrong.");
+            System.out.println("Something went wrong!");
         }
     }
 }
